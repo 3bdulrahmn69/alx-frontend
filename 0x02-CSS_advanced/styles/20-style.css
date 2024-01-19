@@ -202,7 +202,7 @@ body {
   font-weight: var(--font-weight-regular);
   line-height: var(--line-height-base);
 }
-a {
+a:link {
   color: var(--text-color);
   text-decoration: none;
 }
@@ -310,7 +310,7 @@ ul.row {
   font-size: var(--font-size-small);
   color: var(--text-color);
 }
-footer ul {
+.footer ul {
   text-align: right;
 }
 .row::after {
